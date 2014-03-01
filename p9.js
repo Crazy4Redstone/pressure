@@ -131,18 +131,18 @@ if (getTile (x,y,z) == 100 && !mode)
 if (isPlate == 78)
 if (onp) 
   {
-  TestDust (x-1,y-1,z,true)
-  TestDust (x+1,y-1,z,true)
-  TestDust (x,y-1,z-1,true)
-  TestDust (x,y-1,z+1,true)
+  TestDust (x-1,y,z,false)
+	TestDust (x+1,y,z,false)
+	TestDust (x,y,z-1,false)
+	TestDust (x,y,z+1,false)
   }
 else
   {
   var onp = false
-  TestDust (x-1,y-1,z,false)
-  TestDust (x+1,y-1,z,false)
-  TestDust (x,y-1,z-1,false)
-  TestDust (x,y-1,z+1,false)	
+  TestDust (x-1,y,z,true)
+	TestDust (x+1,y,z,true)
+	TestDust (x,y,z-1,true)
+	TestDust (x,y,z+1,true)	
   }
 }
 function procCmd (c) {
