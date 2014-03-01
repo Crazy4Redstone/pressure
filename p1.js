@@ -89,21 +89,22 @@ if (getTile (x,y,z) == 100 && !mode)
 var onpressure = false
 function modTick ()	
 {
-if (onpressure)
+if (onpressure = false)
   {
   if (getTile(getPlayerX(),getPlayerY()-1.6,getPlayerZ()) == 70)
   {
   TestDust (x-1,y,z,true)
-	TestDust (x+1,y,z,true)
-	TestDust (x,y,z-1,true)
-	TestDust (x,y,z+1,true)
+  TestDust (x+1,y,z,true)
+  TestDust (x,y,z-1,true)
+  TestDust (x,y,z+1,true)
+  onpressure = true
   }
   else
   {
   TestDust (x-1,y,z,false)
-	TestDust (x+1,y,z,false)
-	TestDust (x,y,z-1,false)
-	TestDust (x,y,z+1,false)
+  TestDust (x+1,y,z,false)
+  TestDust (x,y,z-1,false)
+  TestDust (x,y,z+1,false)
   onpressure = false
   }
   }
