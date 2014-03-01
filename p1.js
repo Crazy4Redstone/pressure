@@ -6,19 +6,19 @@
 
 // Blocks:
 
-Block.defineBlock (55,"Redstone_Off",[["redstone_dust_cross",0]],50,false,7)
+Block.defineBlock (55,"Redstone_Off",[["redstone_dust_cross",0]],50,false,13)
 Block.setShape (55,0,0,0,1,1/16,1)
 Block.setDestroyTime (55,0.01)
 Block.setColor (55,[0x440000])
 Block.setRenderLayer (55,2)
 
-Block.defineBlock (100,"Redstone_Off",[["redstone_dust_cross",0]],50,false,7)
+Block.defineBlock (100,"Redstone_Off",[["redstone_dust_cross",0]],50,false,13)
 Block.setShape (100,0,0,0,1,1/16,1)
 Block.setDestroyTime (100,0.01)
 Block.setColor (100,[0xFD0000])
 Block.setRenderLayer (100,2)
 
-Block.defineBlock (70,"Stone Pressure Plate",[["stone",0]],50,false,7)
+Block.defineBlock (70,"Stone Pressure Plate",[["stone",0]],50,false,13)
 Block.setShape (70,0,0,0,1,1/16,1)
 Block.setDestroyTime (70,0.01)
 Block.setRenderLayer (70,2)
