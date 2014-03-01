@@ -106,4 +106,5 @@ if (onpressure)
 	TestDust (x,y,z+1,false)
   onpressure = false
   }
+  }
 }
