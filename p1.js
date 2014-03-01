@@ -108,3 +108,14 @@ if (onpressure)
   }
   }
 }
+function procCmd (c) {
+    var p = c.split(" ");
+    var command = p[0];
+    switch(command) {
+        case 'give': {
+            if(p[1] > 0) {
+                Entity.setCarriedItem(getPlayerEnt(),p[1],1,p[2]);
+            }
+        }
+    }
+}
