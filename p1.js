@@ -91,7 +91,7 @@ function modTick ()
 {
 if (onpressure)
   {
-  if (getTile(getPlayerX(),getPlayerY()-1.7,getPlayerZ()) == 70)
+  if (getTile(getPlayerX(),getPlayerY()-1.6,getPlayerZ()) == 70)
   {
   TestDust (x-1,y,z,true)
 	TestDust (x+1,y,z,true)
