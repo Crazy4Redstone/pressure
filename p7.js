@@ -87,7 +87,6 @@ if (getTile (x,y,z) == 100 && !mode)
   }
 }  
 function modTick() 
-var onp = false
 { 
   function TestDust (x,y,z,mode)
 {
@@ -124,6 +123,7 @@ if (getTile (x,y,z) == 100 && !mode)
 	TestDust (x,y+1,z+1,false)
   }
 }  
+  var onp = false
   x = getPlayerX()
   y = getPlayerY()
   z = getPlayerZ()
